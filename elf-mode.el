@@ -42,9 +42,6 @@
 (defvar elf-mode-command "readelf --syms -W %s"
   "The shell command to use for `elf-mode'.")
 
-;; (defvar elf-mode-command "readelf"
-;;  "The shell command to use for `elf-mode'.-h ")
-
 ;;;###autoload
 (defun elf-mode ()
   (interactive)
